@@ -1,0 +1,17 @@
+{
+  "name": "panta-nectarfi-trading-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production Algorithmic Trading & Liquidity Execution Engine for Panta Markets and NectarFi on Solana",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
